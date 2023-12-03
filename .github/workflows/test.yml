@@ -9,7 +9,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
@@ -30,4 +30,4 @@ jobs:
           cd ./npm
           npm init -y
           npm i -D bunw prettier
-          npm run bprettier --version
+          npx bprettier --version
