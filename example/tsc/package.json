@@ -1,5 +1,5 @@
 {
-  "name": "@buns/example-tsc",
+  "name": "@bunw/example-tsc",
   "scripts": {
     "test": "btsc"
   },

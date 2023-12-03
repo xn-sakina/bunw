@@ -1,4 +1,4 @@
-# buns
+# bunw
 
 Bun shortcuts for faster execution.
 
@@ -7,7 +7,7 @@ See [Transpiler cache makes CLIs like tsc up to 2x faster](https://bun.sh/blog/b
 ### Install
 
 ```bash
-  pnpm i -D buns
+  pnpm i -D bunw
 ```
 
 ### Usage
@@ -27,8 +27,8 @@ See [Transpiler cache makes CLIs like tsc up to 2x faster](https://bun.sh/blog/b
 #### For any
 
 ```bash
-  buns prettier
-  buns tsc
+  bunw prettier
+  bunw tsc
   # ...
 ```
 

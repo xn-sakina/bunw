@@ -1,7 +1,7 @@
 {
-  "name": "@buns/example-buns",
+  "name": "@bunw/example-bunw",
   "scripts": {
-    "test": "buns eslint ./src"
+    "test": "bunw eslint ./src"
   },
   "devDependencies": {
     "eslint": "^8.55.0",

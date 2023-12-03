@@ -1,5 +1,5 @@
 packages:
  - './prettier'
  - './tsc'
- - './buns'
+ - './bunw'
  

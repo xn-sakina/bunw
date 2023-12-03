@@ -1,7 +1,7 @@
 {
-  "name": "@buns/example",
+  "name": "@bunw/example",
   "devDependencies": {
-    "buns": "file:../",
+    "bunw": "file:../",
     "@xn-sakina/mental": "^4.2.0"
   }
 }

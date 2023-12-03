@@ -20,7 +20,7 @@ devDependencies:
   '@xn-sakina/mental':
     specifier: ^4.2.0
     version: registry.npmjs.org/@xn-sakina/mental@4.2.0
-  buns:
+  bunw:
     specifier: link:./
     version: 'link:'
   chalk:

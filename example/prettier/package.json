@@ -1,5 +1,5 @@
 {
-  "name": "@buns/example-prettier",
+  "name": "@bunw/example-prettier",
   "scripts": {
     "test": "bprettier ./src"
   },

@@ -1,6 +1,6 @@
-import { execa } from 'buns/compiled/execa'
+import { execa } from 'bunw/compiled/execa'
 import { existsSync } from 'fs'
-import chalk from 'buns/compiled/chalk'
+import chalk from 'bunw/compiled/chalk'
 import { dirname, join } from 'path'
 
 export const createBunCmdShortcut = (name?: string) => {
@@ -35,7 +35,7 @@ export const checkBunIsInstalled = async (
   showHelperInfo: boolean = false,
 ): Promise<IInstall> => {
   try {
-    if (process.env.BUNS_SKIP_BUN_GLOBAL_CHECK) {
+    if (process.env.BUNW_SKIP_BUN_GLOBAL_CHECK) {
       throw new Error('skip global check')
     }
     const ret = await execa('bun', ['--version'])

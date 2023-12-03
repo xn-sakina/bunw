@@ -1,12 +1,12 @@
 import { join, resolve } from 'path'
 import { checkBunIsInstalled } from './cmd'
 import { existsSync, renameSync, writeFileSync } from 'fs'
-import fsExtra from 'buns/compiled/fs-extra'
+import fsExtra from 'bunw/compiled/fs-extra'
 import { execSync } from 'child_process'
-import chalk from 'buns/compiled/chalk'
+import chalk from 'bunw/compiled/chalk'
 
 const postinstall = async () => {
-  if (!process.env.SKIP_BUNS_LOCAL_CHECK) {
+  if (!process.env.SKIP_BUNW_LOCAL_CHECK) {
     const lockFile = join(__dirname, '../pnpm-lock.yaml')
     const isLocal = existsSync(lockFile)
     if (isLocal) {

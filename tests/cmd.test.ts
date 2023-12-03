@@ -1,8 +1,8 @@
 import { expect, describe, vi, it } from 'vitest'
 import { checkOldVersion } from '../src/cmd'
 
-// mock buns/compiled/chalk
-vi.mock('buns/compiled/chalk', async (importOriginal) => {
+// mock bunw/compiled/chalk
+vi.mock('bunw/compiled/chalk', async (importOriginal) => {
   const mod = (await importOriginal()) as any
   return {
     ...mod.default,

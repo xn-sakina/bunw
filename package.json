@@ -1,5 +1,5 @@
 {
-  "name": "buns",
+  "name": "bunw",
   "version": "1.0.0",
   "files": [
     "dist",
@@ -9,19 +9,19 @@
   "types": "dist/index.d.ts",
   "description": "Bun shortcuts for faster execution",
   "author": "fz6m",
-  "homepage": "https://github.com/xn-sakina/buns#README",
+  "homepage": "https://github.com/xn-sakina/bunw#README",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xn-sakina/buns"
+    "url": "https://github.com/xn-sakina/bunw"
   },
   "keywords": [
     "bun",
-    "buns",
+    "bunw",
     "bun-prettier",
     "bun-tsc"
   ],
   "bin": {
-    "buns": "bin/buns.js",
+    "bunw": "bin/bunw.js",
     "bprettier": "bin/bprettier.js",
     "btsc": "bin/btsc.js"
   },
@@ -41,7 +41,7 @@
     "@types/node": "^20.10.2",
     "@xn-sakina/dora": "^1.1.1",
     "@xn-sakina/mental": "^4.2.0",
-    "buns": "link:./",
+    "bunw": "link:./",
     "chalk": "^5.3.0",
     "execa": "^8.0.1",
     "fs-extra": "^11.2.0",
