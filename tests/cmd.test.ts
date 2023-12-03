@@ -11,6 +11,8 @@ vi.mock('bunw/compiled/chalk', async (importOriginal) => {
 
 describe('checkOldVersion', () => {
   const map: Record<string, boolean /* is old */> = {
+    '0.0.1': true,
+    '0.0.16': true,
     '1.0.0': true,
     '1.0.14': true,
     '1.1.0': false,
