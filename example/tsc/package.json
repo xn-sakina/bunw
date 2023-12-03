@@ -1,0 +1,9 @@
+{
+  "name": "@buns/example-tsc",
+  "scripts": {
+    "test": "btsc"
+  },
+  "devDependencies": {
+    "typescript": "^5"
+  }
+}

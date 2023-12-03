@@ -1,0 +1,12 @@
+{
+  "name": "@buns/example-buns",
+  "scripts": {
+    "test": "buns eslint ./src"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-plugin-sakina": "^4.4.0",
+    "prettier": "^3.1.0",
+    "typescript": "^5"
+  }
+}

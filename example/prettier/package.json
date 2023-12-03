@@ -1,0 +1,9 @@
+{
+  "name": "@buns/example-prettier",
+  "scripts": {
+    "test": "bprettier ./src"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0"
+  }
+}
