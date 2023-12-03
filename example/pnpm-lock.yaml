@@ -11,11 +11,11 @@ importers:
       '@xn-sakina/mental':
         specifier: ^4.2.0
         version: registry.npmjs.org/@xn-sakina/mental@4.2.0
-      buns:
+      bunw:
         specifier: file:../
         version: file:..
 
-  buns:
+  bunw:
     devDependencies:
       eslint:
         specifier: ^8.55.0
@@ -46,7 +46,7 @@ packages:
 
   file:..:
     resolution: {directory: .., type: directory}
-    name: buns
+    name: bunw
     hasBin: true
     requiresBuild: true
     dev: true

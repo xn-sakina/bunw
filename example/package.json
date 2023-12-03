@@ -1,5 +1,8 @@
 {
   "name": "@bunw/example",
+  "scripts": {
+    "test": "pnpm -r run test"
+  },
   "devDependencies": {
     "bunw": "file:../",
     "@xn-sakina/mental": "^4.2.0"
