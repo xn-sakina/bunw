@@ -1,0 +1,3 @@
+{
+  "extends": ["./node_modules/@xn-sakina/mental/biome.json"]
+}
