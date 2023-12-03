@@ -1,0 +1,33 @@
+
+name: Test
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Use Node.js v18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+      
+      # we do not need to install bun beforehand
+      - name: New package and install
+        run: |
+          cd ./tests
+          mkdir npm
+          cd ./npm
+          npm init -y
+          npm i -D bunw prettier
+          npm run bprettier --version
